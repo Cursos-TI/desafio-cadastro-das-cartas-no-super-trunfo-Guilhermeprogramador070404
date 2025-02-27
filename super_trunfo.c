@@ -4,17 +4,21 @@ int main(){
     printf("Cartas Super Trunfo!\n");
     printf(" Carta 1\n");
     
-    char estado[1];
-    char codigo[3];
+    char estado[3];
+    char codigo[5];
     char nome[20];
     int populacao;
     float area;
     float pib;
     int npt;
-    
+    float densidade = populacao / area;
+    float percapita = pib / populacao;
+
+
     printf("Nome do Estado: \n");
     scanf("%s", &estado);
     printf("Nome do Estado é: %s\n", estado);
+
 
     printf("Código da Carta: \n");
     scanf("%s", &codigo);
@@ -22,7 +26,7 @@ int main(){
 
     printf("Nome da Cidade: \n");
     scanf("%s", &nome);
-    printf("Nome da Cidade é: %s\n", nome);
+   printf("Nome da Cidade é: %s\n", nome);
 
     printf("População: \n");
     scanf("%d", &populacao);
@@ -40,6 +44,9 @@ int main(){
     scanf("%d", &npt);
     printf("Número de Pontos Turísticos é: %d\n", npt);
 
+    printf("Densidade Populacional: %.2f\n", densidade);
+    printf("PIB per capita: %.2f\n", percapita);
+
     printf("Carta 2\n");
 
     printf("Nome do Estado: \n");
@@ -50,7 +57,7 @@ int main(){
     scanf("%s", &codigo);
     printf("Codigo da Cartra é: %s\n", codigo);
 
-    printf("Nome da Cidade: \n");
+    printf("Nome da Cidade:  \n");
     scanf("%s", &nome);
     printf("Nome da Cidade é: %s\n", nome);
 
@@ -70,6 +77,9 @@ int main(){
     scanf("%d", &npt);
     printf("Número de Pontos Turísticos é: %d\n", npt);
 
+    printf("Densidade Populacional: %.2f\n", densidade);
+    printf("PIB per capita: %.2f\n", percapita);
 
+    return 0;
     
 }
