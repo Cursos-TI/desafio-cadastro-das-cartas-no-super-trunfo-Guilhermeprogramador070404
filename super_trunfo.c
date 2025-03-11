@@ -13,7 +13,10 @@ int main(){
     int npt;
     float densidade = populacao / area;
     float percapita = pib / populacao;
-
+    int soma = populacao + area + pib + npt + densidade + percapita;
+    float superpoder;
+    int a;
+    int b;
 
     printf("Nome do Estado: \n");
     scanf("%s", &estado);
@@ -46,6 +49,10 @@ int main(){
 
     printf("Densidade Populacional: %.2f\n", densidade);
     printf("PIB per capita: %.2f\n", percapita);
+
+    printf("Super Poder: %f\n",superpoder);
+    
+    printf("Soma: %d\n", soma);
 
     printf("Carta 2\n");
 
@@ -80,6 +87,19 @@ int main(){
     printf("Densidade Populacional: %.2f\n", densidade);
     printf("PIB per capita: %.2f\n", percapita);
 
+    printf("Super Poder: %f\n",superpoder);
+
+    printf("Soma: %d\n", soma);
+
+    printf("A > B: %d\n", a > b);
+    printf("População Carta A > População Carta B: %d\n", a > b); 
+    printf("Area Carta A > Area Carta B: %f\n", a > b);
+    printf("PIB Carta A > PIB Carta B: %f\n", a > b);
+    printf("Números de Pontos Turisticos Carta A > Número de Pontos Turisticos Carta: %d\n", a > b);
+    printf("Densidade Populacional Carta A > Densidade Ppopulacional Carta B: %.2f\n", a > b);
+    printf("PIB per capita Carta A > PIB per capita Carta B: %.2f\n", a > b); 
+    printf("Super Poder Carta A > Super Poder Carta B: %f\n", a > b);
+
     return 0;
-    
+
 }
