@@ -18,6 +18,7 @@ int main(){
     int a;
     int b;
 
+
     printf("Nome do Estado: \n");
     scanf("%s", &estado);
     printf("Nome do Estado é: %s\n", estado);
@@ -100,6 +101,68 @@ int main(){
     printf("PIB per capita Carta A > PIB per capita Carta B: %.2f\n", a > b); 
     printf("Super Poder Carta A > Super Poder Carta B: %f\n", a > b);
 
+    if (populacao  > populacao) 
+    {
+        printf("Carta A venceu!\n");
+    } else if(populacao < populacao) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if (area > area)
+    {
+        printf("Carta A venceu!\n");
+    } else if(area < area) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if (pib > pib)
+    {
+        printf("Carta A venceu!\n");
+    } else if(pib < pib) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if (npt > npt)
+    {
+        printf("Carta A venceu!\n");
+    } else if(npt < npt) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if (densidade > densidade)
+    {
+        printf("Carta A venceu!\n");
+    } else if (densidade < densidade) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if(percapita > percapita)
+    {
+        printf("Carta A venceu!\n");
+    } else if(percapita < percapita) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    if (superpoder > superpoder)
+    {
+        printf("Carta A venceu!\n");
+    } else if(superpoder < superpoder) {
+        printf("Carta B venceu!\n");
+    } else {
+        printf("Houve um empate!\n");
+    }
+    
+    
+    
+
     return 0;
 
 }
+
+    
