@@ -157,10 +157,6 @@ int main(){
     } else {
         printf("Houve um empate!\n");
     }
-    
-    
-    
-
     return 0;
 
 }
